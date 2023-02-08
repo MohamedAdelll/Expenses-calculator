@@ -35,7 +35,7 @@ function ExpenseForm(props) {
     } = inputStatesObj;
     props.getSavedFormData({
       date: new Date(date),
-      amount,
+      amount: +amount,
       title,
       id: Math.random().toString(),
     });

@@ -1,8 +1,8 @@
 import ExpenseItem from "./ExpenseItem";
 
 function ExpensesList(props) {
-  if (props.filteredExpenses.length) {
-    return props.filteredExpenses.map((expense) => (
+  if (props.expenses.length) {
+    return props.expenses.map((expense) => (
       <ExpenseItem
         key={expense.id}
         className="expense-item"
