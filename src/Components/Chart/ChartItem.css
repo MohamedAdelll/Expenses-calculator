@@ -1,4 +1,5 @@
 .chart-bar {
+  width: 2%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -25,6 +26,6 @@
 
 .chart-bar__label {
   font-weight: bold;
-  font-size: 0.5rem;
+  font-size: 1rem;
   text-align: center;
 }
